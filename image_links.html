@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Explore our collection of images related to different topics.</p>
+        <a href="https://unsplash.com/photos/gray-and-black-laptop-computer-on-surface-Im7lZjxeLhg"><img src="technology.jpg" alt="Technology" height="300px" width="500px"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://unsplash.com/photos/gray-concrete-bridge-and-waterfalls-during-daytime-cssvEZacHvQ"><img src="nature1.jpg" alt="Nature 1"></a>
+            <a href="https://unsplash.com/photos/silhouette-of-trees-near-body-of-water-during-sunset-lsoogGC_5dg"><img src="nature2.jpg" alt="Nature 2"></a>
+            <a href="https://unsplash.com/photos/selective-focus-photo-of-green-vine-h5wvMCdOV3w"><img src="nature3.jpg" alt="Nature 3"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://unsplash.com/photos/grilled-meat-and-vegetable-on-the-table-UC0HZdUitWY">Chicken <br><img src="food1.jpg" alt="Food 1" height="300px" width="500px"></a> </li>
+            <li><a href="https://unsplash.com/photos/burger-skewered-with-knife-near-black-textile-1Shk_PkNkNw"> Hamburger <br><img src="food2.jpg" alt="Food 2" height="300px" width="500px"></a></li>
+            <li><a href="https://unsplash.com/photos/fish-dish-V7GTcaitu-I"> Fish <br><img src="food3.jpg" alt="Food 3" height="300px" width="500px"></a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+
+    </section>
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
